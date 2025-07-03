@@ -1,11 +1,23 @@
-@media (min-width: 700px) and (max-width: 950px){
+@media (min-width: 700px) and (max-width: 900px){
+  #parent{
+    font-size: 12pt;
+  }
+  
+  .heighText{
+    width: 8em;
+  }
+
+  .form{
+    gap: 1em 1em
+
+  }
   .main{
     height: 100%;
     overflow: auto;
   }
 }
 
-@media (min-width: 950px){
+@media (min-width: 900px){
   #parent{
     font-size: 12pt;
   }
