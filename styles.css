@@ -1,8 +1,18 @@
-@media (min-width: 700px){
+@media (min-width: 700px) and (max-width: 950px){
+  .main{
+    height: 100%;
+    overflow: auto;
+  }
+}
+
+@media (min-width: 950px){
   #parent{
     font-size: 12pt;
   }
   
+  .main{
+
+  }
   .heighText{
     width: 8em;
   }
@@ -21,6 +31,10 @@
   .heighText{
   
   width: 6em;
+
+  }
+
+  .main{
 
   }
 
@@ -73,7 +87,7 @@
 }
 
 .main{
-  
+
 }
 
 .upperReset{
